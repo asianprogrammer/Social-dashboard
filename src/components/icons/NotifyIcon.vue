@@ -3,11 +3,9 @@
     width="40"
     height="40"
     viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
   >
     <path
       d="M18.9,11.2s0-8.7-6.9-8.7-6.9,8.7-6.9,8.7v3.9L2.5,17.5h19l-2.6-2.4Z"
-      fill="none"
       stroke="#000000"
       stroke-linecap="round"
       stroke-linejoin="round"

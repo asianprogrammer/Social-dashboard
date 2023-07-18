@@ -1,14 +1,9 @@
 <template>
   <svg
-    fill="#000000"
+    fill="#BBB9B7"
     height="40"
     width="40"
-    version="1.1"
-    id="Icons"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 32 32"
-    xml:space="preserve"
   >
     <path
       d="M28.5,21c-0.3-1-0.9-1.7-1.7-2.3c0.1-0.6,0.1-1.1,0.1-1.7c0-4.6-2.8-8.6-7-10.3C19.8,4.7,18.1,3,16,3c-2.1,0-3.8,1.7-4,3.7

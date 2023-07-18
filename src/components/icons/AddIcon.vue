@@ -6,7 +6,7 @@
   >
     <line
       fill="none"
-      stroke="#000000"
+      stroke="#fff"
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="2"
@@ -18,7 +18,7 @@
 
     <line
       fill="none"
-      stroke="#000000"
+      stroke="#fff"
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="2"

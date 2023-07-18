@@ -59,7 +59,7 @@ import NotifyIcon from "./icons/NotifyIcon.vue";
 </template>
 <style scoped>
 .input {
-  width: 380px;
+  width: 460px;
   height: 50px;
   padding: 9px 10px;
   border-radius: 10px;
@@ -83,8 +83,9 @@ import NotifyIcon from "./icons/NotifyIcon.vue";
   height: 50px;
 }
 .SupperBG {
+  width: 160px;
   height: 50px;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 12px;
   background: #ffffff;
   box-shadow: 5px 5px 5px rgba(151, 151, 151, 0.11);
@@ -113,7 +114,7 @@ nav {
 }
 .Notify::after {
   top: 14px;
-  content: '';
+  content: "";
   width: 10px;
   right: 15px;
   height: 10px;
