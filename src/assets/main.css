@@ -82,6 +82,10 @@
   justify-content: flex-start;
 }
 
+.flex-y-start {
+  align-items: flex-start;
+}
+
 .flex-x-right {
   justify-content: flex-end;
 }
@@ -279,4 +283,10 @@
   color: #fff;
   border-radius: 12px;
   background: black;
+}
+
+
+/* Define the gradient */
+#gradient {
+  stroke: linear-gradient(to right, #ff0000, #00ff00);
 }
