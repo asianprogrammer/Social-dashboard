@@ -4,6 +4,9 @@ import TopUI from "./components/TopUI.vue";
 import PageStarsUI from "./components/PageStarsUI.vue";
 import ShortWgetUI from "./components/ShortWgetUI.vue";
 import PostActivityUI from "./components/PostActivityUI.vue";
+import DeviceUsability from "./components/DeviceUsability.vue";
+import LinkClickUI from "./components/LinkClick.vue";
+import PostClickUI from "./components/PostClick.vue";
 </script>
 <template>
   <section class="flex">
@@ -26,9 +29,24 @@ import PostActivityUI from "./components/PostActivityUI.vue";
           </div>
         </div>
 
-        <div class="Section-B flex">
+        <div class="Section-B flex flex-y-down">
           <div class="quick-UI flex">
             <ShortWgetUI />
+          </div>
+
+          <div class="CallSupper flex flex-y-start">
+            <div class="Device_usability flex">
+              <DeviceUsability />
+            </div>
+
+            <section class="flex flex-y-down">
+              <div class="card_chart">
+                <LinkClickUI />
+              </div>
+              <div class="card_chart">
+                <PostClickUI/>
+              </div>
+            </section>
           </div>
         </div>
       </main>
@@ -51,11 +69,10 @@ import PostActivityUI from "./components/PostActivityUI.vue";
   margin-top: 30px;
 }
 .quick-UI {
-  width: 100%;
+  width: 97%;
   overflow: hidden;
   padding: 30px 20px;
   margin-left: 25px;
-  overflow-x: auto;
   height: fit-content;
   border-radius: 12px;
   background: #ffffff;
@@ -74,5 +91,33 @@ import PostActivityUI from "./components/PostActivityUI.vue";
   padding: 20px;
   border-radius: 12px;
   background: #ffffff;
+}
+.Device_usability {
+  width: 300px;
+  padding: 30px 15px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+.CallSupper {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.Link_counter {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-left: 20px;
+  background: #ffffff;
+}
+.card_chart {
+  padding: 20px;
+  height: 250px;
+  width: 600px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #ffffff;
+  margin-left: 20px;
+  border-radius: 12px;
 }
 </style>
