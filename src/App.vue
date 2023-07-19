@@ -99,7 +99,8 @@ import PostClickUI from "./components/PostClick.vue";
   background: #ffffff;
 }
 .CallSupper {
-  margin-top: 15px;
+  width: 95%;
+  margin-top: 30px;
   margin-left: 25px;
 }
 .Link_counter {
@@ -107,7 +108,7 @@ import PostClickUI from "./components/PostClick.vue";
   max-width: 600px;
   padding: 20px;
   border-radius: 12px;
-  margin-left: 20px;
+  margin-left: 40px;
   background: #ffffff;
 }
 .card_chart {
@@ -117,7 +118,7 @@ import PostClickUI from "./components/PostClick.vue";
   overflow: hidden;
   margin-bottom: 20px;
   background: #ffffff;
-  margin-left: 20px;
+  margin-left: 40px;
   border-radius: 12px;
 }
 </style>
